@@ -1,0 +1,188 @@
+a {
+	transition: 0.9s all;
+}
+html, body {
+	scroll-behavior: smooth;
+}
+ul {
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-gap:1px;
+	text-align:center;
+	padding-left:0px;
+	margin:0px;
+	font-family: verdana;
+	font-weight:bold;
+	position: center;
+	
+}
+.menu li{
+	list-style:none;
+	background:black;
+	padding:8px;
+	font-family: verdana;
+}
+.menu a{
+	text-decoration:none; 
+	color:white;
+	position: above;
+
+}
+.logo {
+	height:20vh;
+	background-image: url(../images/logo.jpg);
+	background-repeat:no-repeat;
+	
+	background-position:center;
+
+}
+.banner {
+	margin-top: 7px;
+	padding: 15px;
+	height:80vh;
+	background-image: url(../images/banner.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	position: relative;
+	overflow: hidden;
+	
+	
+}
+.banner:hover {
+	margin-top: 7px;
+	padding: 15px;
+	height:80vh;
+	background-image: url(../images/brand.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+	position: relative;
+	
+}
+.clothes {
+	height: 65vh;
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	padding: 3px;
+	grid-gap: 5px;
+	border: 2px solid rgb(119,158,203);
+	
+}
+
+h2 {
+	color: white;
+	font-family: verdana;
+	size: 20px;
+	text-align: center;
+	margin:0px;
+	background-color:black;
+}
+.men1 {
+	
+	padding-left: 10px;
+	height:65vh;
+	background-image: url(../images/men1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.women1 {
+	padding-left: 10px;
+	height:65vh;
+	background-image: url(../images/women1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.men2 {
+	
+	padding-left: 10px;
+	height:65vh;
+	background-image: url(../images/men2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.women2 {
+	padding-left: 10px;
+	height:65vh;
+	background-image: url(../images/women2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+h1 {
+	color: white;
+	font-family: verdana;
+	size: 30px;
+	text-align: center;
+	margin:0px;
+	background-color:rgb(119,158,203);
+	margin-top:5px;
+	
+}
+h3 {
+	color: white;
+	font-family: verdana;
+	size: 20px;
+	text-align: center;
+	margin:0px;
+	background-color:black;
+	margin-top: 10px;
+
+}
+
+.accessories {
+	height: 68vh;
+	display: grid;
+	grid-template-columns: 2fr 2fr ;
+	padding: 3px;
+	grid-gap: 5px;
+	border: 2px solid rgb(119,158,203)
+	
+}
+.about {
+	margin-top: 7px;
+	height: 135vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 3px;
+	grid-gap: 5px;
+	
+}
+.us {
+	border: 2px solid black;
+	padding-left: 10px;
+	background-image: url(../images/us.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.payment {
+	border: 2px solid black;
+	padding-left: 10px;
+	background-image: url(../images/payment.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.owner {
+	border-top: 10px solid black;
+	border-bottom: 10px solid black;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	padding-left: 10px;
+	background-image: url(../images/owner.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+.footer {
+	padding-left: 10px;
+	height:20vh;
+	background-image: url(../images/footer1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+}
